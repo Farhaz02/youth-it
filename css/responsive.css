@@ -1,0 +1,99 @@
+@media (min-width: 320px) and (max-width: 575.98px){
+#navbar-1 .menu{
+margin-top: -16px;
+margin-left: -433px;
+border: none;
+}
+#navbar-1 .menu:focus{
+box-shadow: none;
+}
+#navbar-1 .logo {
+width: 50%;
+margin-left: 100px;
+margin-top: -20px;
+}
+#navbar-1 .search{
+margin-left: 92px;
+width: 50px;
+margin-top: -20px;
+border: none;
+}
+#navbar-1 .search:focus{
+box-shadow: none;
+}
+#navbar-1 .registration {
+display: none;
+}
+#navbar-1 .product-btn {
+opacity: 0;
+}
+#navbar-1 ul {
+width: 74%;
+padding-left: 10px;
+}
+#toper{
+display: none;
+}
+}
+
+
+@media (min-width: 376px) and (max-width: 768px){
+#navbar-1 .search {
+margin-left: 58px;
+}
+#navbar-1 .menu {
+margin-left: -449px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1080px){
+#navbar-1 .search {
+margin-left: 58px;
+}
+#navbar-1 .menu {
+margin-left: -449px;
+}
+#navbar-1 .logo {
+width: 42%;
+margin-left: 221px;
+}
+#navbar-1 .menu {
+margin-left: -496px;
+width: 60px;
+border: none;
+}
+#navbar-1 .search {
+margin-left: 574px;
+width: 50px;
+border: none;
+}
+#toper{
+display: none;
+}
+#navbar-1 .search:focus{
+box-shadow: none;
+}
+#navbar-1 .menu:focus{
+box-shadow: none;
+}
+#navbar-1 .registration {
+display: none;
+}
+#navbar-1 .product-btn {
+opacity: 0;
+}
+}
+
+@media (min-width: 540px) and (max-width: 720px){
+#navbar-1 .search {
+margin-left: 463px;
+}
+#navbar-1 .menu {
+margin-left: -610px;
+}
+#navbar-1 .search {
+    margin-left: 466px;
+    margin-top: -55px;
+}
+    }

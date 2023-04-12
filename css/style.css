@@ -1,0 +1,257 @@
+/* #navbar-1{
+background-color: pink;
+}
+#navbar-1 .main{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+height: 70px;
+padding: 0 100px;
+justify-content: space-between;
+}
+#navbar-1 .main .logo img{
+width: 100%;
+}
+#navbar-1 .nav-item li{
+list-style: none;
+padding: 0 15px;
+}
+#navbar-1 .nav-item{
+display: flex;
+}
+#navbar-1 .nav-item li a{
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+}
+#navbar-1 .nav-item li a:hover{
+color: aqua;
+}
+#navbar-1 .main form{
+display: flex;
+height: 40px;
+border-radius: 2px;
+padding: 2px;
+background-color: #1e232b;
+min-width: 18%!important;
+border: 1px solid rgba(0, 0, 0, 0.879);
+}
+#navbar-1 .main form input .search-data{
+height: 100%;
+width: 100%;
+padding: 0 10px;
+color: #fff;
+}
+#navbar-1 .main form button{
+padding: 0 15px;
+cursor: pointer;
+font-size: 17px;
+color: #fff;
+}
+#navbar-1 .main .menu-icon,
+#navbar-1 .main .search-icon,
+#navbar-1 .main .cancle-icon{
+width: 40px;
+color: black;
+text-align: center;
+margin: 0 50px;
+cursor: pointer;
+display: none;
+}
+
+#navbar-1 .main .menu-icon i,
+#navbar-1 .main .search-icon,
+#navbar-1 .main .cancle-icon{
+display: none;
+}
+
+@media (max-width: 1245px){
+#navbar-1 .main{
+padding: 0 50px;
+}
+}
+
+
+@media (max-width: 1140px){
+#navbar-1 .main{
+padding: 0;
+}
+#navbar-1 .main .logo{
+flex: 2;
+text-align: center;
+height: 100px;
+width: 100px;
+}
+#navbar-1 .main .logo a img{
+width: 100%;
+}
+#navbar-1 .main .nav-item{
+position: fixed;
+z-index: 99;
+top: 70px;
+width: 100%;
+height: 100%;
+background-color: #14141f;
+display: inline-block;
+padding: 10px 10px 10px 1px;
+}
+#navbar-1 .main .nav-item li{
+line-height: 40px;
+margin: 30px 0;
+}
+#navbar-1 .main form{
+display: none;
+}
+#navbar-1 .main .menu-icon{
+display: block;
+}
+#navbar-1 .main .search-icon,
+#navbar-1 .main .menu-icon i{
+display: block;
+}
+}
+     */
+
+
+/* ==========topbar css start========== */
+#toper{
+padding: 10px 0;
+border-bottom: 2px solid black;
+}
+#toper .main{
+display: flex;
+}
+#toper .main a{
+ margin-left: 10px;
+color: #444; 
+font-size: 16px;
+margin-top: 4px;
+font-weight: 700;
+text-decoration: none;
+}
+#toper .main a i{
+margin-left: 5px;
+}
+#toper .main .logo a{
+font-size: 18px;
+font-weight: 700;
+margin-left: 300px;
+}
+#toper .main .icon{
+margin-left: 278px;
+}
+#toper .main .icon a i{
+font-size: 30px;
+}   
+#toper .main .icon .frist{
+color: blue;
+} 
+#toper .main .icon .second{
+color: rgb(116, 116, 238);
+}
+#toper .main .icon .three{
+color: rgb(237, 84, 84);
+}
+#toper .main .icon .four{
+color: rgb(147, 147, 229);
+}
+#toper .main .icon .five{
+color: darkblue;
+}
+/* ========navbar-1 css start========== */
+#navbar-1{
+padding: 20px 0;
+} 
+#navbar-1 .search{
+/* display: none; */
+}
+#navbar-1 form{
+width: 100%;
+}
+#navbar-1 form input{
+width: 95%;
+padding: 8px 10px;
+border: 1px solid rgb(74, 33, 33);
+background-color: #fff;
+border-radius: 5px 0px 0 5px;
+}
+#navbar-1 form button{
+border: none;
+padding: 8px 17px;
+background-color: black;
+border-radius: 0px 5px 5px 0px;
+color: #fff;
+}
+#navbar-1 .logo{
+width: 15%;
+}
+#navbar-1 .logo img{
+width: 100%;
+}
+#navbar-1 .registration ul{
+background-color: #fff;
+}
+#navbar-1 ul{
+width: 100%;
+background-color: black;
+margin-top: 0px;
+}
+#navbar-1 ul li a{
+color: #fff;
+}
+#navbar-1 .find{
+width: 100px;
+}
+#navbar-1 .registration{
+text-align: right;
+margin-top: -4px;
+}
+#navbar-1 .drop{
+    margin-top: 20px;
+     background-color: black;
+}
+#navbar-1 .registration button{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 65px;
+margin-top: 6px;
+}
+#navbar-1 .product-btn{
+width: 24%;
+display: flex;
+margin-right: 10px;
+}
+#navbar-1 .product-btn .btn-1 p{
+text-align: left;
+font-size: 12px;
+}
+#navbar-1 .product-btn .btn-1 p span{
+display:block;
+font-size: 8px;
+}
+#navbar-1 .product-btn button{
+display: flex;
+background-color: rgb(123, 123, 230);
+border: none;
+margin-left: 15px;
+padding: 0 5px;
+height: 40px;
+}
+#navbar-1 .product-btn button i{
+margin-top: 15px;
+margin-left: 10px;
+font-size: 20px;
+}
+#navbar-1 .product-btn .btn-2 p{
+text-align: left;
+font-size: 12px;
+}
+#navbar-1 .product-btn .btn-2 p span{
+display:block;
+font-size: 8px;
+}
